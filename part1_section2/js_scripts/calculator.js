@@ -71,10 +71,10 @@ function main() {
     const calc = new Calculator();
 
     // Test basic operations
-    console.log(`Addition: 5 + 3 = \${calc.add(5, 3)}`);
-    console.log(`Subtraction: 10 - 4 = \${calc.subtract(10, 4)}`);
-    console.log(`Multiplication: 7 * 6 = \${calc.multiply(7, 6)}`);
-    console.log(`Division: 15 / 3 = \${calc.divide(15, 3)}`);
+    console.log(`Addition: 5 + 3 = ${calc.add(5, 3)}`);
+    console.log(`Subtraction: 10 - 4 = ${calc.subtract(10, 4)}`);
+    console.log(`Multiplication: 7 * 6 = ${calc.multiply(7, 6)}`);
+    console.log(`Division: 15 / 3 = ${calc.divide(15, 3)}`);
     
     // Test error handling
     try {
